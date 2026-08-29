@@ -1,0 +1,53 @@
+{
+  "_comment": "Hand-authored representative payload, NOT a live capture. tankservice.app-it-up.com is EGRESS_BLOCKED from the dev sandbox (see docs/DATA-SOURCES.md). Shaped from the field names implied by docs/tasks/T06-price-nl-be.md ('/v2/places' returning a places list with id/lat/lng/name-ish fields) and general knowledge of how DirectLease's private Tankservice app API is publicly known to be structured. Verify against a live response on a Vercel preview before trusting field names beyond what the parser tests exercise.",
+  "places": [
+    {
+      "id": 2001,
+      "name": "Shell Breda Noord",
+      "brand": "Shell",
+      "street": "Ringbaan West 12",
+      "city": "Breda",
+      "postalCode": "4818 AB",
+      "country": "NL",
+      "lat": 51.5943,
+      "lng": 4.7752,
+      "isMotorway": false
+    },
+    {
+      "id": 2002,
+      "name": "Q8 Antwerpen Ring",
+      "brand": "Q8",
+      "street": "Ring R1",
+      "city": "Antwerpen",
+      "postalCode": "2000",
+      "country": "BE",
+      "lat": 51.2093,
+      "lng": 4.4021,
+      "isMotorway": true
+    },
+    {
+      "id": 2003,
+      "name": "Total Maastricht",
+      "brand": "TotalEnergies",
+      "street": "Boschstraat 4",
+      "city": "Maastricht",
+      "postalCode": "6211 AS",
+      "country": "NL",
+      "lat": 50.8514,
+      "lng": 5.6910,
+      "isMotorway": false
+    },
+    {
+      "id": 2004,
+      "name": "Gulf Groningen",
+      "brand": "Gulf",
+      "street": "Peizerweg 100",
+      "city": "Groningen",
+      "postalCode": "9727 AL",
+      "country": "NL",
+      "lat": 53.2382,
+      "lng": 6.5486,
+      "isMotorway": false
+    }
+  ]
+}

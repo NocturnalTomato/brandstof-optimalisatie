@@ -1,0 +1,9 @@
+{
+  "_comment": "Hand-authored representative payload, NOT a live capture. tankservice.app-it-up.com is EGRESS_BLOCKED from the dev sandbox (see docs/DATA-SOURCES.md). Shaped from '/v2/places/{id}' returning per-fuel prices as integers x1000, per docs/tasks/T06-price-nl-be.md. Verify against a live response on a Vercel preview before trusting field names beyond what the parser tests exercise.",
+  "id": 2001,
+  "prices": [
+    { "type": "Euro95", "amount": 1929, "date": "2026-08-29T06:10:00+02:00" },
+    { "type": "Diesel", "amount": 1799, "date": "2026-08-29T06:10:00+02:00" },
+    { "type": "LPG", "amount": 899, "date": "2026-08-29T06:10:00+02:00" }
+  ]
+}

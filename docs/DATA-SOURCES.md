@@ -14,11 +14,26 @@ country by country. Each becomes one `PriceProvider` (see CONTRACTS.md).
 | Country | Source | Endpoint | Key | Refresh | Task |
 |---|---|---|---|---|---|
 | NL, BE | DirectLease Tankservice | `https://tankservice.app-it-up.com/Tankservice/v2/places?fmt=web&country=NL&country=BE&lang=en` then `/v2/places/{id}?_v48&lang=en` | none, but see below | ~daily | T06 |
-| NL | ANWB POI | `https://api.anwb.nl/routing/points-of-interest/v3/all?type-filter=FUEL_STATION&bounding-box-filter={minLat},{minLon},{maxLat},{maxLon}` | unknown — verify | live | T06 |
+| NL | ANWB POI | `https://api.anwb.nl/routing/points-of-interest/v3/all?type-filter=FUEL_STATION&bounding-box-filter={minLat},{minLon},{maxLat},{maxLon}` | **still unverified — needs a live Vercel-preview check** (see below) | live | T06 |
 | DE | Tankerkönig (MTS-K) | `https://creativecommons.tankerkoenig.de/json/list.php?lat=&lng=&rad=&type=all&apikey=` | free key, env `TANKERKOENIG_API_KEY` | live | T07 |
 | FR | data.economie.gouv.fr | `https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records` | none | live | T08 |
 | ES | Ministerio / sedeaplicaciones | `https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/` | none | daily | T08 |
 | IT | MIMIT open data | `https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv` + `anagrafica_impianti_attivi.csv` | none | daily | T08 |
+
+### ANWB POI — key requirement still unverified (T06)
+
+`api.anwb.nl` is one of the endpoints the sandbox cannot reach (see the warning at
+the bottom of this file), so whether it needs a key could not be established by
+actually calling it. `lib/prices/anwb.ts` is built to degrade gracefully either
+way: it reads an optional `ANWB_API_KEY` env var and, only if it is set, attaches
+it as an `Ocp-Apim-Subscription-Key` header (a guess based on Dutch corporate/
+government APIs commonly sitting behind Azure APIM — unconfirmed). If the key
+turns out to be required and named differently, or not required at all, fix the
+header name/logic in `anwb.ts` and this note together.
+
+**This is a claim, not a finding: it still needs a live Vercel-preview check**
+before anyone treats the key requirement as settled. If that check shows ANWB is
+keyless and complete for NL, DirectLease can be dropped per the decision below.
 
 ### DirectLease — read this before using it
 
@@ -94,6 +109,8 @@ narrow a lookup into the bundled table, not replace it.
 ```
 ORS_API_KEY=            # required — OpenRouteService
 TANKERKOENIG_API_KEY=   # required for German prices
+ANWB_API_KEY=           # optional — attached if set; requirement unverified, see T06 note above
+DIRECTLEASE_DEVICE_UUID=# optional — overrides the device id used in the X-Checksum header, see lib/prices/directlease-auth.ts
 PRICE_CACHE_TTL_S=900   # optional, default 900
 NEXT_PUBLIC_APP_ENV=    # optional
 ```
@@ -117,3 +134,15 @@ API and to OSRM at the egress proxy. That has two consequences you must plan for
 
 If an endpoint in the table above turns out to be wrong or dead, fix the table in
 the same PR that discovers it.
+
+**T06 note:** both `api.anwb.nl` and `tankservice.app-it-up.com` are confirmed
+egress-blocked from this sandbox — not just "recorded fixtures" but genuinely
+unreachable, including from any subagent. So `lib/prices/__fixtures__/anwb-poi.json`,
+`directlease-places.json`, and `directlease-station.json` are **hand-authored
+representative payloads, not live captures** — each fixture file says so in its own
+top-level `_comment` field. They are shaped from the field names implied by
+`docs/tasks/T06-price-nl-be.md`, the endpoint URLs/params above, and general public
+knowledge of how ANWB's POI v3 and DirectLease's Tankservice v2 APIs are structured.
+Treat "the fixture parses into a valid `Station[]`" and "the live endpoint answers
+with this shape" as two separate claims — the second is unverified pending a real
+Vercel-preview check, consistent with the sandbox warning above.
