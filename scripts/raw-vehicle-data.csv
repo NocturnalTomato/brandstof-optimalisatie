@@ -1,0 +1,168 @@
+make,model,fuel,tankLitres,consumptionLPer100Km
+Volkswagen,Polo 1.0 TSI,e10,40,5.4
+Volkswagen,Golf 1.5 TSI,e10,50,5.9
+Volkswagen,Golf 2.0 TDI,diesel,50,4.9
+Volkswagen,Golf GTI,e10,50,7.4
+Volkswagen,Passat 2.0 TDI,diesel,66,5.2
+Volkswagen,Passat 1.5 TSI,e10,66,6.3
+Volkswagen,Tiguan 2.0 TDI,diesel,58,5.8
+Volkswagen,Tiguan 1.5 TSI,e10,58,7.1
+Volkswagen,T-Roc 1.0 TSI,e10,50,5.9
+Volkswagen,T-Cross 1.0 TSI,e10,40,5.4
+Volkswagen,Touran 1.5 TSI,e10,50,6.4
+Volkswagen,Arteon 2.0 TDI,diesel,66,5.4
+Volkswagen,Caddy 2.0 TDI,diesel,60,5.6
+Volkswagen,Up! 1.0,e10,35,4.7
+Toyota,Yaris 1.5 Hybrid,e10,36,3.8
+Toyota,Yaris Cross 1.5 Hybrid,e10,36,4.1
+Toyota,Corolla 1.8 Hybrid,e10,43,4.2
+Toyota,Corolla 2.0 Hybrid,e10,43,4.5
+Toyota,C-HR 1.8 Hybrid,e10,43,4.6
+Toyota,RAV4 2.5 Hybrid,e10,55,5.1
+Toyota,Aygo X 1.0,e10,35,4.8
+Toyota,Camry 2.5 Hybrid,e10,50,4.6
+Toyota,Highlander 2.5 Hybrid,e10,55,6.6
+Toyota,Land Cruiser 2.8 D-4D,diesel,80,8.9
+Toyota,Proace Verso 2.0 D,diesel,69,6.9
+Renault,Clio 1.0 TCe,e10,42,5.3
+Renault,Clio 1.5 dCi,diesel,42,3.9
+Renault,Captur 1.3 TCe,e10,48,5.8
+Renault,Megane 1.3 TCe,e10,47,6.0
+Renault,Megane 1.5 dCi,diesel,47,4.3
+Renault,Austral 1.3 TCe,e10,54,6.2
+Renault,Kadjar 1.5 dCi,diesel,55,4.4
+Renault,Scenic 1.3 TCe,e10,50,6.5
+Renault,Talisman 1.6 dCi,diesel,47,4.6
+Renault,Twingo 1.0 SCe,e10,35,4.9
+Peugeot,208 1.2 PureTech,e10,44,5.2
+Peugeot,208 1.5 BlueHDi,diesel,44,3.9
+Peugeot,2008 1.2 PureTech,e10,44,5.6
+Peugeot,308 1.2 PureTech,e10,53,5.6
+Peugeot,308 1.5 BlueHDi,diesel,53,4.3
+Peugeot,3008 1.2 PureTech,e10,53,6.1
+Peugeot,3008 2.0 BlueHDi,diesel,53,5.3
+Peugeot,5008 1.5 BlueHDi,diesel,53,5.4
+Peugeot,508 1.5 BlueHDi,diesel,53,4.5
+Peugeot,Rifter 1.5 BlueHDi,diesel,53,5.5
+Opel,Corsa 1.2,e10,44,5.4
+Opel,Corsa 1.5 Diesel,diesel,44,4.0
+Opel,Astra 1.2 Turbo,e10,52,5.9
+Opel,Astra 1.5 Diesel,diesel,52,4.4
+Opel,Grandland 1.2 Turbo,e10,53,6.0
+Opel,Mokka 1.2 Turbo,e10,44,5.7
+Opel,Crossland 1.2 Turbo,e10,42,5.6
+Opel,Insignia 2.0 Diesel,diesel,56,5.0
+Opel,Combo 1.5 Diesel,diesel,60,5.4
+Ford,Fiesta 1.0 EcoBoost,e10,42,5.3
+Ford,Focus 1.0 EcoBoost,e10,52,5.9
+Ford,Focus 2.0 EcoBlue,diesel,52,4.5
+Ford,Puma 1.0 EcoBoost,e10,42,5.4
+Ford,Kuga 2.0 EcoBlue,diesel,54,5.3
+Ford,Kuga 1.5 EcoBoost,e10,54,6.7
+Ford,Mondeo 2.0 EcoBlue,diesel,62,4.8
+Ford,EcoSport 1.0 EcoBoost,e10,52,6.0
+Ford,Galaxy 2.0 EcoBlue,diesel,70,5.9
+Škoda,Fabia 1.0 TSI,e10,45,5.2
+Škoda,Scala 1.0 TSI,e10,45,5.5
+Škoda,Octavia 1.5 TSI,e10,50,5.7
+Škoda,Octavia 2.0 TDI,diesel,50,4.7
+Škoda,Karoq 1.5 TSI,e10,50,6.4
+Škoda,Karoq 2.0 TDI,diesel,50,5.5
+Škoda,Kodiaq 2.0 TDI,diesel,58,6.0
+Škoda,Kamiq 1.0 TSI,e10,40,5.5
+Škoda,Superb 2.0 TDI,diesel,66,5.1
+Kia,Picanto 1.0,e10,35,5.1
+Kia,Rio 1.0 T-GDI,e10,45,5.4
+Kia,Ceed 1.0 T-GDI,e10,50,5.6
+Kia,Ceed 1.6 CRDi,diesel,50,4.5
+Kia,Sportage 1.6 T-GDI,e10,54,6.7
+Kia,Sportage 1.6 CRDi,diesel,54,5.4
+Kia,Stonic 1.0 T-GDI,e10,45,5.5
+Kia,Niro 1.6 Hybrid,e10,45,4.4
+Kia,Sorento 2.2 CRDi,diesel,67,6.5
+Hyundai,i10 1.0,e10,37,5.0
+Hyundai,i20 1.0 T-GDI,e10,40,5.4
+Hyundai,i30 1.0 T-GDI,e10,50,5.6
+Hyundai,i30 1.6 CRDi,diesel,50,4.4
+Hyundai,Kona 1.0 T-GDI,e10,50,5.9
+Hyundai,Tucson 1.6 T-GDI,e10,54,7.0
+Hyundai,Tucson 1.6 CRDi,diesel,54,5.3
+Hyundai,Bayon 1.0 T-GDI,e10,40,5.6
+Hyundai,Santa Fe 2.2 CRDi,diesel,67,6.8
+BMW,116i,e10,52,6.2
+BMW,118d,diesel,52,4.7
+BMW,318i,e10,59,6.2
+BMW,320d,diesel,59,4.7
+BMW,320i,e10,59,6.5
+BMW,X1 sDrive18i,e10,51,6.5
+BMW,X1 sDrive18d,diesel,51,5.1
+BMW,X3 xDrive20d,diesel,65,5.7
+BMW,X5 xDrive30d,diesel,80,6.9
+BMW,530d,diesel,68,5.3
+Mercedes-Benz,A 180,e10,43,6.1
+Mercedes-Benz,A 200d,diesel,43,4.5
+Mercedes-Benz,C 200,e10,66,6.5
+Mercedes-Benz,C 220d,diesel,66,4.9
+Mercedes-Benz,E 220d,diesel,66,5.1
+Mercedes-Benz,GLA 200,e10,43,6.6
+Mercedes-Benz,GLC 220d,diesel,60,5.9
+Mercedes-Benz,GLE 300d,diesel,80,7.0
+Mercedes-Benz,B 180,e10,43,6.2
+Mercedes-Benz,CLA 200,e10,50,6.3
+Audi,A1 30 TFSI,e10,40,5.3
+Audi,A3 35 TFSI,e10,50,5.9
+Audi,A3 35 TDI,diesel,50,4.5
+Audi,A4 35 TDI,diesel,54,5.0
+Audi,A4 40 TFSI,e10,54,6.4
+Audi,A6 40 TDI,diesel,73,5.2
+Audi,Q2 30 TFSI,e10,50,5.9
+Audi,Q3 35 TDI,diesel,58,5.6
+Audi,Q5 40 TDI,diesel,65,6.0
+Audi,Q7 45 TDI,diesel,75,7.2
+Volvo,V40 D2,diesel,62,3.8
+Volvo,S60 B4,e10,60,6.5
+Volvo,V60 D3,diesel,60,4.6
+Volvo,XC40 T3,e10,54,6.6
+Volvo,XC40 D3,diesel,54,4.9
+Volvo,XC60 D4,diesel,71,5.3
+Volvo,XC90 D5,diesel,71,6.2
+Volvo,S90 D4,diesel,60,4.8
+Volvo,V90 B4,e10,60,6.6
+Dacia,Sandero 1.0 TCe,e10,50,5.5
+Dacia,Sandero Stepway 1.0 TCe,e10,50,5.7
+Dacia,Duster 1.3 TCe,e10,50,6.4
+Dacia,Duster Blue dCi,diesel,50,4.5
+Dacia,Logan 1.0 TCe,e10,50,5.5
+Dacia,Jogger 1.0 TCe,e10,50,6.0
+Dacia,Dokker 1.6 SCe,e10,50,6.9
+Citroën,C3 1.2 PureTech,e10,45,5.3
+Citroën,C3 Aircross 1.2 PureTech,e10,44,5.6
+Citroën,C4 1.2 PureTech,e10,52,5.9
+Citroën,C4 1.5 BlueHDi,diesel,52,4.3
+Citroën,C5 Aircross 1.5 BlueHDi,diesel,53,5.4
+Citroën,Berlingo 1.5 BlueHDi,diesel,53,5.5
+Citroën,C1 1.0,e10,35,4.7
+Fiat,500 1.0 Hybrid,e10,35,4.6
+Fiat,Panda 1.0 Hybrid,e10,35,4.9
+Fiat,Tipo 1.0 Firefly,e10,50,5.8
+Fiat,Tipo 1.6 MultiJet,diesel,50,4.6
+Fiat,500X 1.0 Firefly,e10,48,6.1
+Fiat,Punto 1.2,e5,45,5.6
+Fiat,Doblo 1.6 MultiJet,diesel,60,5.7
+Seat,Ibiza 1.0 TSI,e10,40,5.3
+Seat,Leon 1.5 TSI,e10,50,5.8
+Seat,Leon 2.0 TDI,diesel,50,4.7
+Seat,Arona 1.0 TSI,e10,40,5.5
+Seat,Ateca 1.5 TSI,e10,55,6.4
+Seat,Ateca 2.0 TDI,diesel,55,5.5
+Seat,Tarraco 2.0 TDI,diesel,58,6.1
+Nissan,Micra 1.0 IG-T,e10,41,5.5
+Nissan,Juke 1.0 DIG-T,e10,46,5.9
+Nissan,Qashqai 1.3 DIG-T,e10,55,6.1
+Nissan,Qashqai 1.5 dCi,diesel,55,4.9
+Nissan,X-Trail 1.3 DIG-T,e10,55,6.9
+Nissan,Navara 2.3 dCi,diesel,80,7.9
+Nissan,Note 1.2,e10,41,5.3
+Dacia,Duster ECO-G,lpg,50,7.9
+Dacia,Sandero ECO-G,lpg,50,7.3
+Opel,Combo ECOTEC LPG,lpg,55,9.0

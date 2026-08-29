@@ -9,7 +9,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build:vehicles": "tsx scripts/build-vehicles.ts"
   },
   "dependencies": {
     "next": "^15.5.0",
@@ -23,6 +24,7 @@
     "@types/react-dom": "^19.1.0",
     "eslint": "^9.18.0",
     "eslint-config-next": "^15.5.0",
+    "tsx": "^4.23.12",
     "typescript": "^5.7.2",
     "vitest": "^3.0.0"
   }

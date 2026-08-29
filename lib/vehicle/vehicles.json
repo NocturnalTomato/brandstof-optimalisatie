@@ -1,0 +1,1338 @@
+[
+  {
+    "id": "audi-a1-30-tfsi",
+    "make": "Audi",
+    "model": "A1 30 TFSI",
+    "tankLitres": 40,
+    "consumptionLPer100Km": 5.3,
+    "fuel": "e10"
+  },
+  {
+    "id": "audi-a3-35-tdi",
+    "make": "Audi",
+    "model": "A3 35 TDI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 4.5,
+    "fuel": "diesel"
+  },
+  {
+    "id": "audi-a3-35-tfsi",
+    "make": "Audi",
+    "model": "A3 35 TFSI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 5.9,
+    "fuel": "e10"
+  },
+  {
+    "id": "audi-a4-35-tdi",
+    "make": "Audi",
+    "model": "A4 35 TDI",
+    "tankLitres": 54,
+    "consumptionLPer100Km": 5,
+    "fuel": "diesel"
+  },
+  {
+    "id": "audi-a4-40-tfsi",
+    "make": "Audi",
+    "model": "A4 40 TFSI",
+    "tankLitres": 54,
+    "consumptionLPer100Km": 6.4,
+    "fuel": "e10"
+  },
+  {
+    "id": "audi-a6-40-tdi",
+    "make": "Audi",
+    "model": "A6 40 TDI",
+    "tankLitres": 73,
+    "consumptionLPer100Km": 5.2,
+    "fuel": "diesel"
+  },
+  {
+    "id": "audi-q2-30-tfsi",
+    "make": "Audi",
+    "model": "Q2 30 TFSI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 5.9,
+    "fuel": "e10"
+  },
+  {
+    "id": "audi-q3-35-tdi",
+    "make": "Audi",
+    "model": "Q3 35 TDI",
+    "tankLitres": 58,
+    "consumptionLPer100Km": 5.6,
+    "fuel": "diesel"
+  },
+  {
+    "id": "audi-q5-40-tdi",
+    "make": "Audi",
+    "model": "Q5 40 TDI",
+    "tankLitres": 65,
+    "consumptionLPer100Km": 6,
+    "fuel": "diesel"
+  },
+  {
+    "id": "audi-q7-45-tdi",
+    "make": "Audi",
+    "model": "Q7 45 TDI",
+    "tankLitres": 75,
+    "consumptionLPer100Km": 7.2,
+    "fuel": "diesel"
+  },
+  {
+    "id": "bmw-116i",
+    "make": "BMW",
+    "model": "116i",
+    "tankLitres": 52,
+    "consumptionLPer100Km": 6.2,
+    "fuel": "e10"
+  },
+  {
+    "id": "bmw-118d",
+    "make": "BMW",
+    "model": "118d",
+    "tankLitres": 52,
+    "consumptionLPer100Km": 4.7,
+    "fuel": "diesel"
+  },
+  {
+    "id": "bmw-318i",
+    "make": "BMW",
+    "model": "318i",
+    "tankLitres": 59,
+    "consumptionLPer100Km": 6.2,
+    "fuel": "e10"
+  },
+  {
+    "id": "bmw-320d",
+    "make": "BMW",
+    "model": "320d",
+    "tankLitres": 59,
+    "consumptionLPer100Km": 4.7,
+    "fuel": "diesel"
+  },
+  {
+    "id": "bmw-320i",
+    "make": "BMW",
+    "model": "320i",
+    "tankLitres": 59,
+    "consumptionLPer100Km": 6.5,
+    "fuel": "e10"
+  },
+  {
+    "id": "bmw-530d",
+    "make": "BMW",
+    "model": "530d",
+    "tankLitres": 68,
+    "consumptionLPer100Km": 5.3,
+    "fuel": "diesel"
+  },
+  {
+    "id": "bmw-x1-sdrive18d",
+    "make": "BMW",
+    "model": "X1 sDrive18d",
+    "tankLitres": 51,
+    "consumptionLPer100Km": 5.1,
+    "fuel": "diesel"
+  },
+  {
+    "id": "bmw-x1-sdrive18i",
+    "make": "BMW",
+    "model": "X1 sDrive18i",
+    "tankLitres": 51,
+    "consumptionLPer100Km": 6.5,
+    "fuel": "e10"
+  },
+  {
+    "id": "bmw-x3-xdrive20d",
+    "make": "BMW",
+    "model": "X3 xDrive20d",
+    "tankLitres": 65,
+    "consumptionLPer100Km": 5.7,
+    "fuel": "diesel"
+  },
+  {
+    "id": "bmw-x5-xdrive30d",
+    "make": "BMW",
+    "model": "X5 xDrive30d",
+    "tankLitres": 80,
+    "consumptionLPer100Km": 6.9,
+    "fuel": "diesel"
+  },
+  {
+    "id": "citroen-berlingo-1-5-bluehdi",
+    "make": "Citroën",
+    "model": "Berlingo 1.5 BlueHDi",
+    "tankLitres": 53,
+    "consumptionLPer100Km": 5.5,
+    "fuel": "diesel"
+  },
+  {
+    "id": "citroen-c1-1-0",
+    "make": "Citroën",
+    "model": "C1 1.0",
+    "tankLitres": 35,
+    "consumptionLPer100Km": 4.7,
+    "fuel": "e10"
+  },
+  {
+    "id": "citroen-c3-1-2-puretech",
+    "make": "Citroën",
+    "model": "C3 1.2 PureTech",
+    "tankLitres": 45,
+    "consumptionLPer100Km": 5.3,
+    "fuel": "e10"
+  },
+  {
+    "id": "citroen-c3-aircross-1-2-puretech",
+    "make": "Citroën",
+    "model": "C3 Aircross 1.2 PureTech",
+    "tankLitres": 44,
+    "consumptionLPer100Km": 5.6,
+    "fuel": "e10"
+  },
+  {
+    "id": "citroen-c4-1-2-puretech",
+    "make": "Citroën",
+    "model": "C4 1.2 PureTech",
+    "tankLitres": 52,
+    "consumptionLPer100Km": 5.9,
+    "fuel": "e10"
+  },
+  {
+    "id": "citroen-c4-1-5-bluehdi",
+    "make": "Citroën",
+    "model": "C4 1.5 BlueHDi",
+    "tankLitres": 52,
+    "consumptionLPer100Km": 4.3,
+    "fuel": "diesel"
+  },
+  {
+    "id": "citroen-c5-aircross-1-5-bluehdi",
+    "make": "Citroën",
+    "model": "C5 Aircross 1.5 BlueHDi",
+    "tankLitres": 53,
+    "consumptionLPer100Km": 5.4,
+    "fuel": "diesel"
+  },
+  {
+    "id": "dacia-dokker-1-6-sce",
+    "make": "Dacia",
+    "model": "Dokker 1.6 SCe",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 6.9,
+    "fuel": "e10"
+  },
+  {
+    "id": "dacia-duster-1-3-tce",
+    "make": "Dacia",
+    "model": "Duster 1.3 TCe",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 6.4,
+    "fuel": "e10"
+  },
+  {
+    "id": "dacia-duster-blue-dci",
+    "make": "Dacia",
+    "model": "Duster Blue dCi",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 4.5,
+    "fuel": "diesel"
+  },
+  {
+    "id": "dacia-duster-eco-g",
+    "make": "Dacia",
+    "model": "Duster ECO-G",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 7.9,
+    "fuel": "lpg"
+  },
+  {
+    "id": "dacia-jogger-1-0-tce",
+    "make": "Dacia",
+    "model": "Jogger 1.0 TCe",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 6,
+    "fuel": "e10"
+  },
+  {
+    "id": "dacia-logan-1-0-tce",
+    "make": "Dacia",
+    "model": "Logan 1.0 TCe",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 5.5,
+    "fuel": "e10"
+  },
+  {
+    "id": "dacia-sandero-1-0-tce",
+    "make": "Dacia",
+    "model": "Sandero 1.0 TCe",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 5.5,
+    "fuel": "e10"
+  },
+  {
+    "id": "dacia-sandero-eco-g",
+    "make": "Dacia",
+    "model": "Sandero ECO-G",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 7.3,
+    "fuel": "lpg"
+  },
+  {
+    "id": "dacia-sandero-stepway-1-0-tce",
+    "make": "Dacia",
+    "model": "Sandero Stepway 1.0 TCe",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 5.7,
+    "fuel": "e10"
+  },
+  {
+    "id": "fiat-500-1-0-hybrid",
+    "make": "Fiat",
+    "model": "500 1.0 Hybrid",
+    "tankLitres": 35,
+    "consumptionLPer100Km": 4.6,
+    "fuel": "e10"
+  },
+  {
+    "id": "fiat-500x-1-0-firefly",
+    "make": "Fiat",
+    "model": "500X 1.0 Firefly",
+    "tankLitres": 48,
+    "consumptionLPer100Km": 6.1,
+    "fuel": "e10"
+  },
+  {
+    "id": "fiat-doblo-1-6-multijet",
+    "make": "Fiat",
+    "model": "Doblo 1.6 MultiJet",
+    "tankLitres": 60,
+    "consumptionLPer100Km": 5.7,
+    "fuel": "diesel"
+  },
+  {
+    "id": "fiat-panda-1-0-hybrid",
+    "make": "Fiat",
+    "model": "Panda 1.0 Hybrid",
+    "tankLitres": 35,
+    "consumptionLPer100Km": 4.9,
+    "fuel": "e10"
+  },
+  {
+    "id": "fiat-punto-1-2",
+    "make": "Fiat",
+    "model": "Punto 1.2",
+    "tankLitres": 45,
+    "consumptionLPer100Km": 5.6,
+    "fuel": "e5"
+  },
+  {
+    "id": "fiat-tipo-1-0-firefly",
+    "make": "Fiat",
+    "model": "Tipo 1.0 Firefly",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 5.8,
+    "fuel": "e10"
+  },
+  {
+    "id": "fiat-tipo-1-6-multijet",
+    "make": "Fiat",
+    "model": "Tipo 1.6 MultiJet",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 4.6,
+    "fuel": "diesel"
+  },
+  {
+    "id": "ford-ecosport-1-0-ecoboost",
+    "make": "Ford",
+    "model": "EcoSport 1.0 EcoBoost",
+    "tankLitres": 52,
+    "consumptionLPer100Km": 6,
+    "fuel": "e10"
+  },
+  {
+    "id": "ford-fiesta-1-0-ecoboost",
+    "make": "Ford",
+    "model": "Fiesta 1.0 EcoBoost",
+    "tankLitres": 42,
+    "consumptionLPer100Km": 5.3,
+    "fuel": "e10"
+  },
+  {
+    "id": "ford-focus-1-0-ecoboost",
+    "make": "Ford",
+    "model": "Focus 1.0 EcoBoost",
+    "tankLitres": 52,
+    "consumptionLPer100Km": 5.9,
+    "fuel": "e10"
+  },
+  {
+    "id": "ford-focus-2-0-ecoblue",
+    "make": "Ford",
+    "model": "Focus 2.0 EcoBlue",
+    "tankLitres": 52,
+    "consumptionLPer100Km": 4.5,
+    "fuel": "diesel"
+  },
+  {
+    "id": "ford-galaxy-2-0-ecoblue",
+    "make": "Ford",
+    "model": "Galaxy 2.0 EcoBlue",
+    "tankLitres": 70,
+    "consumptionLPer100Km": 5.9,
+    "fuel": "diesel"
+  },
+  {
+    "id": "ford-kuga-1-5-ecoboost",
+    "make": "Ford",
+    "model": "Kuga 1.5 EcoBoost",
+    "tankLitres": 54,
+    "consumptionLPer100Km": 6.7,
+    "fuel": "e10"
+  },
+  {
+    "id": "ford-kuga-2-0-ecoblue",
+    "make": "Ford",
+    "model": "Kuga 2.0 EcoBlue",
+    "tankLitres": 54,
+    "consumptionLPer100Km": 5.3,
+    "fuel": "diesel"
+  },
+  {
+    "id": "ford-mondeo-2-0-ecoblue",
+    "make": "Ford",
+    "model": "Mondeo 2.0 EcoBlue",
+    "tankLitres": 62,
+    "consumptionLPer100Km": 4.8,
+    "fuel": "diesel"
+  },
+  {
+    "id": "ford-puma-1-0-ecoboost",
+    "make": "Ford",
+    "model": "Puma 1.0 EcoBoost",
+    "tankLitres": 42,
+    "consumptionLPer100Km": 5.4,
+    "fuel": "e10"
+  },
+  {
+    "id": "hyundai-bayon-1-0-t-gdi",
+    "make": "Hyundai",
+    "model": "Bayon 1.0 T-GDI",
+    "tankLitres": 40,
+    "consumptionLPer100Km": 5.6,
+    "fuel": "e10"
+  },
+  {
+    "id": "hyundai-i10-1-0",
+    "make": "Hyundai",
+    "model": "i10 1.0",
+    "tankLitres": 37,
+    "consumptionLPer100Km": 5,
+    "fuel": "e10"
+  },
+  {
+    "id": "hyundai-i20-1-0-t-gdi",
+    "make": "Hyundai",
+    "model": "i20 1.0 T-GDI",
+    "tankLitres": 40,
+    "consumptionLPer100Km": 5.4,
+    "fuel": "e10"
+  },
+  {
+    "id": "hyundai-i30-1-0-t-gdi",
+    "make": "Hyundai",
+    "model": "i30 1.0 T-GDI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 5.6,
+    "fuel": "e10"
+  },
+  {
+    "id": "hyundai-i30-1-6-crdi",
+    "make": "Hyundai",
+    "model": "i30 1.6 CRDi",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 4.4,
+    "fuel": "diesel"
+  },
+  {
+    "id": "hyundai-kona-1-0-t-gdi",
+    "make": "Hyundai",
+    "model": "Kona 1.0 T-GDI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 5.9,
+    "fuel": "e10"
+  },
+  {
+    "id": "hyundai-santa-fe-2-2-crdi",
+    "make": "Hyundai",
+    "model": "Santa Fe 2.2 CRDi",
+    "tankLitres": 67,
+    "consumptionLPer100Km": 6.8,
+    "fuel": "diesel"
+  },
+  {
+    "id": "hyundai-tucson-1-6-crdi",
+    "make": "Hyundai",
+    "model": "Tucson 1.6 CRDi",
+    "tankLitres": 54,
+    "consumptionLPer100Km": 5.3,
+    "fuel": "diesel"
+  },
+  {
+    "id": "hyundai-tucson-1-6-t-gdi",
+    "make": "Hyundai",
+    "model": "Tucson 1.6 T-GDI",
+    "tankLitres": 54,
+    "consumptionLPer100Km": 7,
+    "fuel": "e10"
+  },
+  {
+    "id": "kia-ceed-1-0-t-gdi",
+    "make": "Kia",
+    "model": "Ceed 1.0 T-GDI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 5.6,
+    "fuel": "e10"
+  },
+  {
+    "id": "kia-ceed-1-6-crdi",
+    "make": "Kia",
+    "model": "Ceed 1.6 CRDi",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 4.5,
+    "fuel": "diesel"
+  },
+  {
+    "id": "kia-niro-1-6-hybrid",
+    "make": "Kia",
+    "model": "Niro 1.6 Hybrid",
+    "tankLitres": 45,
+    "consumptionLPer100Km": 4.4,
+    "fuel": "e10"
+  },
+  {
+    "id": "kia-picanto-1-0",
+    "make": "Kia",
+    "model": "Picanto 1.0",
+    "tankLitres": 35,
+    "consumptionLPer100Km": 5.1,
+    "fuel": "e10"
+  },
+  {
+    "id": "kia-rio-1-0-t-gdi",
+    "make": "Kia",
+    "model": "Rio 1.0 T-GDI",
+    "tankLitres": 45,
+    "consumptionLPer100Km": 5.4,
+    "fuel": "e10"
+  },
+  {
+    "id": "kia-sorento-2-2-crdi",
+    "make": "Kia",
+    "model": "Sorento 2.2 CRDi",
+    "tankLitres": 67,
+    "consumptionLPer100Km": 6.5,
+    "fuel": "diesel"
+  },
+  {
+    "id": "kia-sportage-1-6-crdi",
+    "make": "Kia",
+    "model": "Sportage 1.6 CRDi",
+    "tankLitres": 54,
+    "consumptionLPer100Km": 5.4,
+    "fuel": "diesel"
+  },
+  {
+    "id": "kia-sportage-1-6-t-gdi",
+    "make": "Kia",
+    "model": "Sportage 1.6 T-GDI",
+    "tankLitres": 54,
+    "consumptionLPer100Km": 6.7,
+    "fuel": "e10"
+  },
+  {
+    "id": "kia-stonic-1-0-t-gdi",
+    "make": "Kia",
+    "model": "Stonic 1.0 T-GDI",
+    "tankLitres": 45,
+    "consumptionLPer100Km": 5.5,
+    "fuel": "e10"
+  },
+  {
+    "id": "mercedes-benz-a-180",
+    "make": "Mercedes-Benz",
+    "model": "A 180",
+    "tankLitres": 43,
+    "consumptionLPer100Km": 6.1,
+    "fuel": "e10"
+  },
+  {
+    "id": "mercedes-benz-a-200d",
+    "make": "Mercedes-Benz",
+    "model": "A 200d",
+    "tankLitres": 43,
+    "consumptionLPer100Km": 4.5,
+    "fuel": "diesel"
+  },
+  {
+    "id": "mercedes-benz-b-180",
+    "make": "Mercedes-Benz",
+    "model": "B 180",
+    "tankLitres": 43,
+    "consumptionLPer100Km": 6.2,
+    "fuel": "e10"
+  },
+  {
+    "id": "mercedes-benz-c-200",
+    "make": "Mercedes-Benz",
+    "model": "C 200",
+    "tankLitres": 66,
+    "consumptionLPer100Km": 6.5,
+    "fuel": "e10"
+  },
+  {
+    "id": "mercedes-benz-c-220d",
+    "make": "Mercedes-Benz",
+    "model": "C 220d",
+    "tankLitres": 66,
+    "consumptionLPer100Km": 4.9,
+    "fuel": "diesel"
+  },
+  {
+    "id": "mercedes-benz-cla-200",
+    "make": "Mercedes-Benz",
+    "model": "CLA 200",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 6.3,
+    "fuel": "e10"
+  },
+  {
+    "id": "mercedes-benz-e-220d",
+    "make": "Mercedes-Benz",
+    "model": "E 220d",
+    "tankLitres": 66,
+    "consumptionLPer100Km": 5.1,
+    "fuel": "diesel"
+  },
+  {
+    "id": "mercedes-benz-gla-200",
+    "make": "Mercedes-Benz",
+    "model": "GLA 200",
+    "tankLitres": 43,
+    "consumptionLPer100Km": 6.6,
+    "fuel": "e10"
+  },
+  {
+    "id": "mercedes-benz-glc-220d",
+    "make": "Mercedes-Benz",
+    "model": "GLC 220d",
+    "tankLitres": 60,
+    "consumptionLPer100Km": 5.9,
+    "fuel": "diesel"
+  },
+  {
+    "id": "mercedes-benz-gle-300d",
+    "make": "Mercedes-Benz",
+    "model": "GLE 300d",
+    "tankLitres": 80,
+    "consumptionLPer100Km": 7,
+    "fuel": "diesel"
+  },
+  {
+    "id": "nissan-juke-1-0-dig-t",
+    "make": "Nissan",
+    "model": "Juke 1.0 DIG-T",
+    "tankLitres": 46,
+    "consumptionLPer100Km": 5.9,
+    "fuel": "e10"
+  },
+  {
+    "id": "nissan-micra-1-0-ig-t",
+    "make": "Nissan",
+    "model": "Micra 1.0 IG-T",
+    "tankLitres": 41,
+    "consumptionLPer100Km": 5.5,
+    "fuel": "e10"
+  },
+  {
+    "id": "nissan-navara-2-3-dci",
+    "make": "Nissan",
+    "model": "Navara 2.3 dCi",
+    "tankLitres": 80,
+    "consumptionLPer100Km": 7.9,
+    "fuel": "diesel"
+  },
+  {
+    "id": "nissan-note-1-2",
+    "make": "Nissan",
+    "model": "Note 1.2",
+    "tankLitres": 41,
+    "consumptionLPer100Km": 5.3,
+    "fuel": "e10"
+  },
+  {
+    "id": "nissan-qashqai-1-3-dig-t",
+    "make": "Nissan",
+    "model": "Qashqai 1.3 DIG-T",
+    "tankLitres": 55,
+    "consumptionLPer100Km": 6.1,
+    "fuel": "e10"
+  },
+  {
+    "id": "nissan-qashqai-1-5-dci",
+    "make": "Nissan",
+    "model": "Qashqai 1.5 dCi",
+    "tankLitres": 55,
+    "consumptionLPer100Km": 4.9,
+    "fuel": "diesel"
+  },
+  {
+    "id": "nissan-x-trail-1-3-dig-t",
+    "make": "Nissan",
+    "model": "X-Trail 1.3 DIG-T",
+    "tankLitres": 55,
+    "consumptionLPer100Km": 6.9,
+    "fuel": "e10"
+  },
+  {
+    "id": "opel-astra-1-2-turbo",
+    "make": "Opel",
+    "model": "Astra 1.2 Turbo",
+    "tankLitres": 52,
+    "consumptionLPer100Km": 5.9,
+    "fuel": "e10"
+  },
+  {
+    "id": "opel-astra-1-5-diesel",
+    "make": "Opel",
+    "model": "Astra 1.5 Diesel",
+    "tankLitres": 52,
+    "consumptionLPer100Km": 4.4,
+    "fuel": "diesel"
+  },
+  {
+    "id": "opel-combo-1-5-diesel",
+    "make": "Opel",
+    "model": "Combo 1.5 Diesel",
+    "tankLitres": 60,
+    "consumptionLPer100Km": 5.4,
+    "fuel": "diesel"
+  },
+  {
+    "id": "opel-combo-ecotec-lpg",
+    "make": "Opel",
+    "model": "Combo ECOTEC LPG",
+    "tankLitres": 55,
+    "consumptionLPer100Km": 9,
+    "fuel": "lpg"
+  },
+  {
+    "id": "opel-corsa-1-2",
+    "make": "Opel",
+    "model": "Corsa 1.2",
+    "tankLitres": 44,
+    "consumptionLPer100Km": 5.4,
+    "fuel": "e10"
+  },
+  {
+    "id": "opel-corsa-1-5-diesel",
+    "make": "Opel",
+    "model": "Corsa 1.5 Diesel",
+    "tankLitres": 44,
+    "consumptionLPer100Km": 4,
+    "fuel": "diesel"
+  },
+  {
+    "id": "opel-crossland-1-2-turbo",
+    "make": "Opel",
+    "model": "Crossland 1.2 Turbo",
+    "tankLitres": 42,
+    "consumptionLPer100Km": 5.6,
+    "fuel": "e10"
+  },
+  {
+    "id": "opel-grandland-1-2-turbo",
+    "make": "Opel",
+    "model": "Grandland 1.2 Turbo",
+    "tankLitres": 53,
+    "consumptionLPer100Km": 6,
+    "fuel": "e10"
+  },
+  {
+    "id": "opel-insignia-2-0-diesel",
+    "make": "Opel",
+    "model": "Insignia 2.0 Diesel",
+    "tankLitres": 56,
+    "consumptionLPer100Km": 5,
+    "fuel": "diesel"
+  },
+  {
+    "id": "opel-mokka-1-2-turbo",
+    "make": "Opel",
+    "model": "Mokka 1.2 Turbo",
+    "tankLitres": 44,
+    "consumptionLPer100Km": 5.7,
+    "fuel": "e10"
+  },
+  {
+    "id": "peugeot-2008-1-2-puretech",
+    "make": "Peugeot",
+    "model": "2008 1.2 PureTech",
+    "tankLitres": 44,
+    "consumptionLPer100Km": 5.6,
+    "fuel": "e10"
+  },
+  {
+    "id": "peugeot-208-1-2-puretech",
+    "make": "Peugeot",
+    "model": "208 1.2 PureTech",
+    "tankLitres": 44,
+    "consumptionLPer100Km": 5.2,
+    "fuel": "e10"
+  },
+  {
+    "id": "peugeot-208-1-5-bluehdi",
+    "make": "Peugeot",
+    "model": "208 1.5 BlueHDi",
+    "tankLitres": 44,
+    "consumptionLPer100Km": 3.9,
+    "fuel": "diesel"
+  },
+  {
+    "id": "peugeot-3008-1-2-puretech",
+    "make": "Peugeot",
+    "model": "3008 1.2 PureTech",
+    "tankLitres": 53,
+    "consumptionLPer100Km": 6.1,
+    "fuel": "e10"
+  },
+  {
+    "id": "peugeot-3008-2-0-bluehdi",
+    "make": "Peugeot",
+    "model": "3008 2.0 BlueHDi",
+    "tankLitres": 53,
+    "consumptionLPer100Km": 5.3,
+    "fuel": "diesel"
+  },
+  {
+    "id": "peugeot-308-1-2-puretech",
+    "make": "Peugeot",
+    "model": "308 1.2 PureTech",
+    "tankLitres": 53,
+    "consumptionLPer100Km": 5.6,
+    "fuel": "e10"
+  },
+  {
+    "id": "peugeot-308-1-5-bluehdi",
+    "make": "Peugeot",
+    "model": "308 1.5 BlueHDi",
+    "tankLitres": 53,
+    "consumptionLPer100Km": 4.3,
+    "fuel": "diesel"
+  },
+  {
+    "id": "peugeot-5008-1-5-bluehdi",
+    "make": "Peugeot",
+    "model": "5008 1.5 BlueHDi",
+    "tankLitres": 53,
+    "consumptionLPer100Km": 5.4,
+    "fuel": "diesel"
+  },
+  {
+    "id": "peugeot-508-1-5-bluehdi",
+    "make": "Peugeot",
+    "model": "508 1.5 BlueHDi",
+    "tankLitres": 53,
+    "consumptionLPer100Km": 4.5,
+    "fuel": "diesel"
+  },
+  {
+    "id": "peugeot-rifter-1-5-bluehdi",
+    "make": "Peugeot",
+    "model": "Rifter 1.5 BlueHDi",
+    "tankLitres": 53,
+    "consumptionLPer100Km": 5.5,
+    "fuel": "diesel"
+  },
+  {
+    "id": "renault-austral-1-3-tce",
+    "make": "Renault",
+    "model": "Austral 1.3 TCe",
+    "tankLitres": 54,
+    "consumptionLPer100Km": 6.2,
+    "fuel": "e10"
+  },
+  {
+    "id": "renault-captur-1-3-tce",
+    "make": "Renault",
+    "model": "Captur 1.3 TCe",
+    "tankLitres": 48,
+    "consumptionLPer100Km": 5.8,
+    "fuel": "e10"
+  },
+  {
+    "id": "renault-clio-1-0-tce",
+    "make": "Renault",
+    "model": "Clio 1.0 TCe",
+    "tankLitres": 42,
+    "consumptionLPer100Km": 5.3,
+    "fuel": "e10"
+  },
+  {
+    "id": "renault-clio-1-5-dci",
+    "make": "Renault",
+    "model": "Clio 1.5 dCi",
+    "tankLitres": 42,
+    "consumptionLPer100Km": 3.9,
+    "fuel": "diesel"
+  },
+  {
+    "id": "renault-kadjar-1-5-dci",
+    "make": "Renault",
+    "model": "Kadjar 1.5 dCi",
+    "tankLitres": 55,
+    "consumptionLPer100Km": 4.4,
+    "fuel": "diesel"
+  },
+  {
+    "id": "renault-megane-1-3-tce",
+    "make": "Renault",
+    "model": "Megane 1.3 TCe",
+    "tankLitres": 47,
+    "consumptionLPer100Km": 6,
+    "fuel": "e10"
+  },
+  {
+    "id": "renault-megane-1-5-dci",
+    "make": "Renault",
+    "model": "Megane 1.5 dCi",
+    "tankLitres": 47,
+    "consumptionLPer100Km": 4.3,
+    "fuel": "diesel"
+  },
+  {
+    "id": "renault-scenic-1-3-tce",
+    "make": "Renault",
+    "model": "Scenic 1.3 TCe",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 6.5,
+    "fuel": "e10"
+  },
+  {
+    "id": "renault-talisman-1-6-dci",
+    "make": "Renault",
+    "model": "Talisman 1.6 dCi",
+    "tankLitres": 47,
+    "consumptionLPer100Km": 4.6,
+    "fuel": "diesel"
+  },
+  {
+    "id": "renault-twingo-1-0-sce",
+    "make": "Renault",
+    "model": "Twingo 1.0 SCe",
+    "tankLitres": 35,
+    "consumptionLPer100Km": 4.9,
+    "fuel": "e10"
+  },
+  {
+    "id": "seat-arona-1-0-tsi",
+    "make": "Seat",
+    "model": "Arona 1.0 TSI",
+    "tankLitres": 40,
+    "consumptionLPer100Km": 5.5,
+    "fuel": "e10"
+  },
+  {
+    "id": "seat-ateca-1-5-tsi",
+    "make": "Seat",
+    "model": "Ateca 1.5 TSI",
+    "tankLitres": 55,
+    "consumptionLPer100Km": 6.4,
+    "fuel": "e10"
+  },
+  {
+    "id": "seat-ateca-2-0-tdi",
+    "make": "Seat",
+    "model": "Ateca 2.0 TDI",
+    "tankLitres": 55,
+    "consumptionLPer100Km": 5.5,
+    "fuel": "diesel"
+  },
+  {
+    "id": "seat-ibiza-1-0-tsi",
+    "make": "Seat",
+    "model": "Ibiza 1.0 TSI",
+    "tankLitres": 40,
+    "consumptionLPer100Km": 5.3,
+    "fuel": "e10"
+  },
+  {
+    "id": "seat-leon-1-5-tsi",
+    "make": "Seat",
+    "model": "Leon 1.5 TSI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 5.8,
+    "fuel": "e10"
+  },
+  {
+    "id": "seat-leon-2-0-tdi",
+    "make": "Seat",
+    "model": "Leon 2.0 TDI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 4.7,
+    "fuel": "diesel"
+  },
+  {
+    "id": "seat-tarraco-2-0-tdi",
+    "make": "Seat",
+    "model": "Tarraco 2.0 TDI",
+    "tankLitres": 58,
+    "consumptionLPer100Km": 6.1,
+    "fuel": "diesel"
+  },
+  {
+    "id": "skoda-fabia-1-0-tsi",
+    "make": "Škoda",
+    "model": "Fabia 1.0 TSI",
+    "tankLitres": 45,
+    "consumptionLPer100Km": 5.2,
+    "fuel": "e10"
+  },
+  {
+    "id": "skoda-kamiq-1-0-tsi",
+    "make": "Škoda",
+    "model": "Kamiq 1.0 TSI",
+    "tankLitres": 40,
+    "consumptionLPer100Km": 5.5,
+    "fuel": "e10"
+  },
+  {
+    "id": "skoda-karoq-1-5-tsi",
+    "make": "Škoda",
+    "model": "Karoq 1.5 TSI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 6.4,
+    "fuel": "e10"
+  },
+  {
+    "id": "skoda-karoq-2-0-tdi",
+    "make": "Škoda",
+    "model": "Karoq 2.0 TDI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 5.5,
+    "fuel": "diesel"
+  },
+  {
+    "id": "skoda-kodiaq-2-0-tdi",
+    "make": "Škoda",
+    "model": "Kodiaq 2.0 TDI",
+    "tankLitres": 58,
+    "consumptionLPer100Km": 6,
+    "fuel": "diesel"
+  },
+  {
+    "id": "skoda-octavia-1-5-tsi",
+    "make": "Škoda",
+    "model": "Octavia 1.5 TSI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 5.7,
+    "fuel": "e10"
+  },
+  {
+    "id": "skoda-octavia-2-0-tdi",
+    "make": "Škoda",
+    "model": "Octavia 2.0 TDI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 4.7,
+    "fuel": "diesel"
+  },
+  {
+    "id": "skoda-scala-1-0-tsi",
+    "make": "Škoda",
+    "model": "Scala 1.0 TSI",
+    "tankLitres": 45,
+    "consumptionLPer100Km": 5.5,
+    "fuel": "e10"
+  },
+  {
+    "id": "skoda-superb-2-0-tdi",
+    "make": "Škoda",
+    "model": "Superb 2.0 TDI",
+    "tankLitres": 66,
+    "consumptionLPer100Km": 5.1,
+    "fuel": "diesel"
+  },
+  {
+    "id": "toyota-aygo-x-1-0",
+    "make": "Toyota",
+    "model": "Aygo X 1.0",
+    "tankLitres": 35,
+    "consumptionLPer100Km": 4.8,
+    "fuel": "e10"
+  },
+  {
+    "id": "toyota-c-hr-1-8-hybrid",
+    "make": "Toyota",
+    "model": "C-HR 1.8 Hybrid",
+    "tankLitres": 43,
+    "consumptionLPer100Km": 4.6,
+    "fuel": "e10"
+  },
+  {
+    "id": "toyota-camry-2-5-hybrid",
+    "make": "Toyota",
+    "model": "Camry 2.5 Hybrid",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 4.6,
+    "fuel": "e10"
+  },
+  {
+    "id": "toyota-corolla-1-8-hybrid",
+    "make": "Toyota",
+    "model": "Corolla 1.8 Hybrid",
+    "tankLitres": 43,
+    "consumptionLPer100Km": 4.2,
+    "fuel": "e10"
+  },
+  {
+    "id": "toyota-corolla-2-0-hybrid",
+    "make": "Toyota",
+    "model": "Corolla 2.0 Hybrid",
+    "tankLitres": 43,
+    "consumptionLPer100Km": 4.5,
+    "fuel": "e10"
+  },
+  {
+    "id": "toyota-highlander-2-5-hybrid",
+    "make": "Toyota",
+    "model": "Highlander 2.5 Hybrid",
+    "tankLitres": 55,
+    "consumptionLPer100Km": 6.6,
+    "fuel": "e10"
+  },
+  {
+    "id": "toyota-land-cruiser-2-8-d-4d",
+    "make": "Toyota",
+    "model": "Land Cruiser 2.8 D-4D",
+    "tankLitres": 80,
+    "consumptionLPer100Km": 8.9,
+    "fuel": "diesel"
+  },
+  {
+    "id": "toyota-proace-verso-2-0-d",
+    "make": "Toyota",
+    "model": "Proace Verso 2.0 D",
+    "tankLitres": 69,
+    "consumptionLPer100Km": 6.9,
+    "fuel": "diesel"
+  },
+  {
+    "id": "toyota-rav4-2-5-hybrid",
+    "make": "Toyota",
+    "model": "RAV4 2.5 Hybrid",
+    "tankLitres": 55,
+    "consumptionLPer100Km": 5.1,
+    "fuel": "e10"
+  },
+  {
+    "id": "toyota-yaris-1-5-hybrid",
+    "make": "Toyota",
+    "model": "Yaris 1.5 Hybrid",
+    "tankLitres": 36,
+    "consumptionLPer100Km": 3.8,
+    "fuel": "e10"
+  },
+  {
+    "id": "toyota-yaris-cross-1-5-hybrid",
+    "make": "Toyota",
+    "model": "Yaris Cross 1.5 Hybrid",
+    "tankLitres": 36,
+    "consumptionLPer100Km": 4.1,
+    "fuel": "e10"
+  },
+  {
+    "id": "volkswagen-arteon-2-0-tdi",
+    "make": "Volkswagen",
+    "model": "Arteon 2.0 TDI",
+    "tankLitres": 66,
+    "consumptionLPer100Km": 5.4,
+    "fuel": "diesel"
+  },
+  {
+    "id": "volkswagen-caddy-2-0-tdi",
+    "make": "Volkswagen",
+    "model": "Caddy 2.0 TDI",
+    "tankLitres": 60,
+    "consumptionLPer100Km": 5.6,
+    "fuel": "diesel"
+  },
+  {
+    "id": "volkswagen-golf-1-5-tsi",
+    "make": "Volkswagen",
+    "model": "Golf 1.5 TSI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 5.9,
+    "fuel": "e10"
+  },
+  {
+    "id": "volkswagen-golf-2-0-tdi",
+    "make": "Volkswagen",
+    "model": "Golf 2.0 TDI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 4.9,
+    "fuel": "diesel"
+  },
+  {
+    "id": "volkswagen-golf-gti",
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 7.4,
+    "fuel": "e10"
+  },
+  {
+    "id": "volkswagen-passat-1-5-tsi",
+    "make": "Volkswagen",
+    "model": "Passat 1.5 TSI",
+    "tankLitres": 66,
+    "consumptionLPer100Km": 6.3,
+    "fuel": "e10"
+  },
+  {
+    "id": "volkswagen-passat-2-0-tdi",
+    "make": "Volkswagen",
+    "model": "Passat 2.0 TDI",
+    "tankLitres": 66,
+    "consumptionLPer100Km": 5.2,
+    "fuel": "diesel"
+  },
+  {
+    "id": "volkswagen-polo-1-0-tsi",
+    "make": "Volkswagen",
+    "model": "Polo 1.0 TSI",
+    "tankLitres": 40,
+    "consumptionLPer100Km": 5.4,
+    "fuel": "e10"
+  },
+  {
+    "id": "volkswagen-t-cross-1-0-tsi",
+    "make": "Volkswagen",
+    "model": "T-Cross 1.0 TSI",
+    "tankLitres": 40,
+    "consumptionLPer100Km": 5.4,
+    "fuel": "e10"
+  },
+  {
+    "id": "volkswagen-t-roc-1-0-tsi",
+    "make": "Volkswagen",
+    "model": "T-Roc 1.0 TSI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 5.9,
+    "fuel": "e10"
+  },
+  {
+    "id": "volkswagen-tiguan-1-5-tsi",
+    "make": "Volkswagen",
+    "model": "Tiguan 1.5 TSI",
+    "tankLitres": 58,
+    "consumptionLPer100Km": 7.1,
+    "fuel": "e10"
+  },
+  {
+    "id": "volkswagen-tiguan-2-0-tdi",
+    "make": "Volkswagen",
+    "model": "Tiguan 2.0 TDI",
+    "tankLitres": 58,
+    "consumptionLPer100Km": 5.8,
+    "fuel": "diesel"
+  },
+  {
+    "id": "volkswagen-touran-1-5-tsi",
+    "make": "Volkswagen",
+    "model": "Touran 1.5 TSI",
+    "tankLitres": 50,
+    "consumptionLPer100Km": 6.4,
+    "fuel": "e10"
+  },
+  {
+    "id": "volkswagen-up-1-0",
+    "make": "Volkswagen",
+    "model": "Up! 1.0",
+    "tankLitres": 35,
+    "consumptionLPer100Km": 4.7,
+    "fuel": "e10"
+  },
+  {
+    "id": "volvo-s60-b4",
+    "make": "Volvo",
+    "model": "S60 B4",
+    "tankLitres": 60,
+    "consumptionLPer100Km": 6.5,
+    "fuel": "e10"
+  },
+  {
+    "id": "volvo-s90-d4",
+    "make": "Volvo",
+    "model": "S90 D4",
+    "tankLitres": 60,
+    "consumptionLPer100Km": 4.8,
+    "fuel": "diesel"
+  },
+  {
+    "id": "volvo-v40-d2",
+    "make": "Volvo",
+    "model": "V40 D2",
+    "tankLitres": 62,
+    "consumptionLPer100Km": 3.8,
+    "fuel": "diesel"
+  },
+  {
+    "id": "volvo-v60-d3",
+    "make": "Volvo",
+    "model": "V60 D3",
+    "tankLitres": 60,
+    "consumptionLPer100Km": 4.6,
+    "fuel": "diesel"
+  },
+  {
+    "id": "volvo-v90-b4",
+    "make": "Volvo",
+    "model": "V90 B4",
+    "tankLitres": 60,
+    "consumptionLPer100Km": 6.6,
+    "fuel": "e10"
+  },
+  {
+    "id": "volvo-xc40-d3",
+    "make": "Volvo",
+    "model": "XC40 D3",
+    "tankLitres": 54,
+    "consumptionLPer100Km": 4.9,
+    "fuel": "diesel"
+  },
+  {
+    "id": "volvo-xc40-t3",
+    "make": "Volvo",
+    "model": "XC40 T3",
+    "tankLitres": 54,
+    "consumptionLPer100Km": 6.6,
+    "fuel": "e10"
+  },
+  {
+    "id": "volvo-xc60-d4",
+    "make": "Volvo",
+    "model": "XC60 D4",
+    "tankLitres": 71,
+    "consumptionLPer100Km": 5.3,
+    "fuel": "diesel"
+  },
+  {
+    "id": "volvo-xc90-d5",
+    "make": "Volvo",
+    "model": "XC90 D5",
+    "tankLitres": 71,
+    "consumptionLPer100Km": 6.2,
+    "fuel": "diesel"
+  }
+]
