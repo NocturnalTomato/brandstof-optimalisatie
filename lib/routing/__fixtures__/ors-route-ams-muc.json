@@ -1,0 +1,25 @@
+{
+  "_comment": "Synthetic ORS /v2/directions/driving-car response shaped like a real one — the sandbox cannot reach ORS (see docs/DATA-SOURCES.md). Geometry is an actual encoded polyline (precision 5) through Amsterdam, Utrecht, Nijmegen (NL) then Oberhausen, Koln, Koblenz, Frankfurt, Wurzburg, Nurnberg, Ingolstadt, Munchen (DE), generated offline with this repo's own encoder so decodePolyline has a known-good target to match exactly.",
+  "routes": [
+    {
+      "summary": {
+        "distance": 808000,
+        "duration": 27000
+      },
+      "geometry": "o`s~Hsy|\\rau@cmi@biu@wxjCzw|@gogEnclBczQvkpBkxyBn`o@{ntEnl}@shwF~faAskzE~{dCgdcAfizB{o]",
+      "waypoints": [
+        [52.3676, 4.9041],
+        [52.0907, 5.1214],
+        [51.8126, 5.8372],
+        [51.4963, 6.8638],
+        [50.9375, 6.9603],
+        [50.3569, 7.589],
+        [50.1109, 8.6821],
+        [49.7913, 9.9534],
+        [49.4521, 11.0767],
+        [48.7665, 11.4257],
+        [48.1351, 11.582]
+      ]
+    }
+  ]
+}
