@@ -1,0 +1,115 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+/* Tokens — "The Rail" */
+:root {
+  --bg: #f4f2eb;
+  --panel: #ebe9e0;
+  --ink: #1d2a22;
+  --soft: #66756c;
+  --faint: #8e9c93;
+  --line: #c4cdc6;
+  --hair: #dfddd4;
+  --acc: #1d2a22;
+  --on-acc: #f4f2eb;
+  --node: #a3b2a9;
+  --tip: #1d2a22;
+  --tipfg: #f4f2eb;
+  --warm: #a8552f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1512;
+    --panel: #18211c;
+    --ink: #e7ede7;
+    --soft: #93a399;
+    --faint: #6e7e74;
+    --line: #2b362f;
+    --hair: #212b25;
+    --acc: #d8e8dc;
+    --on-acc: #0f1512;
+    --node: #4a5a50;
+    --tip: #d8e8dc;
+    --tipfg: #0f1512;
+    --warm: #e39a72;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #0f1512;
+  --panel: #18211c;
+  --ink: #e7ede7;
+  --soft: #93a399;
+  --faint: #6e7e74;
+  --line: #2b362f;
+  --hair: #212b25;
+  --acc: #d8e8dc;
+  --on-acc: #0f1512;
+  --node: #4a5a50;
+  --tip: #d8e8dc;
+  --tipfg: #0f1512;
+  --warm: #e39a72;
+}
+
+/* Type */
+/* --font-display and --font-body are set by next/font on <html> (see layout.tsx),
+   each with its real fallback stack baked in. */
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+.figure {
+  font-family: var(--font-display);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
