@@ -1,0 +1,75 @@
+{
+  "_comment": "Hand-authored representative payload, NOT a live capture. api.anwb.nl is EGRESS_BLOCKED from the dev sandbox (see docs/DATA-SOURCES.md). Shaped from the ANWB POI v3 'all' endpoint field names implied by docs/tasks/T06-price-nl-be.md and general knowledge of ANWB's public POI schema (a results array of POIs with a fuelPrices sub-array). Verify against a live response on a Vercel preview before trusting field names beyond what the parser tests exercise.",
+  "results": [
+    {
+      "id": "anwb-poi-1001",
+      "name": "Shell A2 Amsterdam-Zuid",
+      "brand": "Shell",
+      "type": "FUEL_STATION",
+      "location": { "lat": 52.3181, "lon": 4.9483 },
+      "address": {
+        "street": "A2",
+        "houseNumber": "1",
+        "postalCode": "1082 MA",
+        "city": "Amsterdam"
+      },
+      "isMotorway": true,
+      "openingHours": "24/7",
+      "fuelPrices": [
+        { "fuelType": "Euro95", "price": 1.929, "lastUpdated": "2026-08-29T06:15:00Z" },
+        { "fuelType": "Diesel", "price": 1.799, "lastUpdated": "2026-08-29T06:15:00Z" },
+        { "fuelType": "LPG", "price": 0.899, "lastUpdated": "2026-08-29T06:15:00Z" }
+      ]
+    },
+    {
+      "id": "anwb-poi-1002",
+      "name": "BP Rotterdam Centrum",
+      "brand": "BP",
+      "type": "FUEL_STATION",
+      "location": { "lat": 51.9244, "lon": 4.4777 },
+      "address": {
+        "street": "Coolsingel",
+        "houseNumber": "42",
+        "postalCode": "3011 AD",
+        "city": "Rotterdam"
+      },
+      "isMotorway": false,
+      "openingHours": "06:00-22:00",
+      "fuelPrices": [
+        { "fuelType": "E10", "price": 1.899, "lastUpdated": "2026-08-29T05:50:00Z" },
+        { "fuelType": "Superplus", "price": 2.049, "lastUpdated": "2026-08-29T05:50:00Z" }
+      ]
+    },
+    {
+      "id": "anwb-poi-1003",
+      "name": "Esso Utrecht Oost",
+      "brand": "Esso",
+      "type": "FUEL_STATION",
+      "location": { "lat": 52.0907, "lon": 5.1214 },
+      "address": {
+        "street": "Waterlinieweg",
+        "houseNumber": "10",
+        "postalCode": "3527 AD",
+        "city": "Utrecht"
+      },
+      "isMotorway": false,
+      "fuelPrices": [
+        { "fuelType": "Diesel", "price": 1.789, "lastUpdated": "2026-08-29T06:00:00Z" }
+      ]
+    },
+    {
+      "id": "anwb-poi-1004",
+      "name": "Tinq Almere",
+      "brand": "Tinq",
+      "type": "FUEL_STATION",
+      "location": { "lat": 52.3508, "lon": 5.2647 },
+      "address": {
+        "street": "Hogering",
+        "houseNumber": "5",
+        "postalCode": "1312 KZ",
+        "city": "Almere"
+      },
+      "fuelPrices": []
+    }
+  ]
+}
