@@ -85,6 +85,8 @@ export interface PriceProvider {
   readonly countries: readonly CountryCode[];
   /** True for reverse-engineered / unsanctioned sources. Surfaced in the API response. */
   readonly unofficial: boolean;
+  /** Credit string required by the upstream's terms, if any. Show it wherever its prices appear. */
+  readonly attribution?: string;
   /** Must resolve to [] (never throw) when the upstream is down — see Error handling. */
   stationsInBBox(
     bbox: BoundingBox,

@@ -8,6 +8,7 @@
 // a side-effect import line below.
 import "./anwb";
 import "./directlease";
+import "./tankerkoenig";
 
 export { registerProvider, providersForCountries, allProviders } from "./registry";
 export { dedupeStations } from "./dedupe";

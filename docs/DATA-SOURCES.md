@@ -146,3 +146,22 @@ knowledge of how ANWB's POI v3 and DirectLease's Tankservice v2 APIs are structu
 Treat "the fixture parses into a valid `Station[]`" and "the live endpoint answers
 with this shape" as two separate claims — the second is unverified pending a real
 Vercel-preview check, consistent with the sandbox warning above.
+
+**T07 note:** `creativecommons.tankerkoenig.de` is also confirmed egress-blocked
+from this sandbox (the CONNECT tunnel returns 403), so
+`lib/prices/__fixtures__/tankerkoenig-list.json` is likewise a **hand-authored
+representative payload**, shaped from the field names publicly documented for
+`list.php` (`id`, `name`, `brand`, `street`, `houseNumber`, `place`, `postCode`,
+`lat`, `lng`, `diesel`, `e5`, `e10`, `isOpen`) — flagged the same way in the
+fixture's own `_comment` field, pending a live Vercel-preview check.
+
+One thing worth flagging rather than quietly working around: `list.php`'s
+documented schema carries **no per-station or response-level observation
+timestamp** at all — unlike ANWB's `lastUpdated` or a cached snapshot, there is
+nothing in the payload to read `observedAt` from. `lib/prices/tankerkoenig.ts`
+resolves this by treating the moment of each `stationsInBBox` call as the
+observation time (captured once per call, shared by every station that call
+returns, not re-read per station) — reasonable for a feed this project's own
+table above already lists as "live", but it is a real gap in the upstream API,
+not a task-doc assumption confirmed against a live response. If a live check
+turns up a timestamp field this missed, wire it in and drop this note.
