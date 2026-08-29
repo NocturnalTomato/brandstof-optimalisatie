@@ -1,0 +1,37 @@
+{
+  "_comment": "Hand-authored representative payload, not a live capture — data.economie.gouv.fr is egress-blocked from this sandbox (confirmed: CONNECT tunnel returns 403), same as every other price endpoint in T06/T07. Shaped from the Opendatasoft Explore v2.1 records response format and the field names in docs/tasks/T08-price-fr-es-it.md. Treat 'the fixture parses into a valid Station[]' and 'the live endpoint answers with this shape' as two separate claims — the second needs a live Vercel-preview check per docs/DATA-SOURCES.md.",
+  "total_count": 2,
+  "results": [
+    {
+      "id": "75001001",
+      "adresse": "12 Rue de Rivoli",
+      "ville": "Paris",
+      "cp": "75001",
+      "geom": { "lat": 48.8606, "lon": 2.3376 },
+      "gazole": 1.749,
+      "gazole_maj": "2026-08-28T08:15:00+00:00",
+      "sp95": 1.799,
+      "sp95_maj": "2026-08-28T08:15:00+00:00",
+      "sp98": 1.859,
+      "sp98_maj": "2026-08-28T08:15:00+00:00",
+      "e10": 1.729,
+      "e10_maj": "2026-08-28T08:15:00+00:00",
+      "e85": 0.999,
+      "e85_maj": "2026-08-28T08:15:00+00:00",
+      "gplc": 0.899,
+      "gplc_maj": "2026-08-28T08:15:00+00:00"
+    },
+    {
+      "id": "75002002",
+      "adresse": "5 Boulevard Haussmann",
+      "ville": "Paris",
+      "cp": "75002",
+      "geom": { "lat": 48.8721, "lon": 2.335 },
+      "gazole": 1.759,
+      "gazole_maj": "2026-08-28T07:50:00+00:00",
+      "sp95": null,
+      "e10": 1.739,
+      "e10_maj": "2026-08-28T07:50:00+00:00"
+    }
+  ]
+}

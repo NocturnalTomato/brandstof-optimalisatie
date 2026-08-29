@@ -30,15 +30,11 @@ async function attempt(url: string, options: FetchJsonOptions): Promise<Response
   });
 }
 
-/**
- * Fetches and parses JSON. Never throws: a timeout, network failure, non-2xx
- * status, or malformed body all resolve to `null` after one retry on 5xx or a
- * network error (400 ms backoff). Adapters can treat `null` as "no data".
- */
-export async function fetchJson<T = unknown>(
+async function fetchWithRetry(
   url: string,
-  options: FetchJsonOptions = {},
-): Promise<T | null> {
+  options: FetchJsonOptions,
+  parse: (res: Response) => Promise<unknown>,
+): Promise<unknown | null> {
   if (options.signal?.aborted) return null;
 
   for (let attemptNumber = 0; attemptNumber < 2; attemptNumber++) {
@@ -53,7 +49,7 @@ export async function fetchJson<T = unknown>(
 
     if (res.ok) {
       try {
-        return (await res.json()) as T;
+        return await parse(res);
       } catch {
         return null;
       }
@@ -68,4 +64,24 @@ export async function fetchJson<T = unknown>(
   }
 
   return null;
+}
+
+/**
+ * Fetches and parses JSON. Never throws: a timeout, network failure, non-2xx
+ * status, or malformed body all resolve to `null` after one retry on 5xx or a
+ * network error (400 ms backoff). Adapters can treat `null` as "no data".
+ */
+export async function fetchJson<T = unknown>(
+  url: string,
+  options: FetchJsonOptions = {},
+): Promise<T | null> {
+  return (await fetchWithRetry(url, options, (res) => res.json())) as T | null;
+}
+
+/**
+ * Fetches raw text (for CSV/XML upstreams). Same never-throws, one-retry-on-5xx
+ * behaviour as `fetchJson`.
+ */
+export async function fetchText(url: string, options: FetchJsonOptions = {}): Promise<string | null> {
+  return (await fetchWithRetry(url, options, (res) => res.text())) as string | null;
 }
