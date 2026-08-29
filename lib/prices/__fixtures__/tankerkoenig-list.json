@@ -1,0 +1,54 @@
+{
+  "_comment": "Hand-authored representative payload, not a live capture — creativecommons.tankerkoenig.de is egress-blocked from this sandbox (confirmed: CONNECT tunnel returns 403), same as api.anwb.nl and tankservice.app-it-up.com were for T06. Shaped from the field names documented at https://creativecommons.tankerkoenig.de (list.php) and docs/tasks/T07-price-de.md. Treat 'the fixture parses into a valid Station[]' and 'the live endpoint answers with this shape' as two separate claims — the second needs a live Vercel-preview check per docs/DATA-SOURCES.md.",
+  "ok": true,
+  "license": "CC BY 4.0 - https://creativecommons.tankerkoenig.de",
+  "data": "MTS-K",
+  "status": "ok",
+  "stations": [
+    {
+      "id": "51d4b55d-0001-1aa0-e100-80009459e03a",
+      "name": "ARAL Tankstelle",
+      "brand": "ARAL",
+      "street": "Bundesstr.",
+      "houseNumber": "1",
+      "place": "Berlin",
+      "postCode": 10115,
+      "lat": 52.531,
+      "lng": 13.384,
+      "diesel": 1.629,
+      "e5": 1.729,
+      "e10": 1.669,
+      "isOpen": true
+    },
+    {
+      "id": "51d4b55d-0002-1aa0-e100-80009459e03b",
+      "name": "Shell Tankstelle",
+      "brand": "Shell",
+      "street": "Hauptstr.",
+      "houseNumber": "42",
+      "place": "Berlin",
+      "postCode": 10117,
+      "lat": 52.518,
+      "lng": 13.401,
+      "diesel": 1.639,
+      "e5": 1.739,
+      "e10": 1.679,
+      "isOpen": true
+    },
+    {
+      "id": "51d4b55d-0003-1aa0-e100-80009459e03c",
+      "name": "Esso Tankstelle",
+      "brand": "Esso",
+      "street": "Ringstr.",
+      "houseNumber": "7",
+      "place": "Berlin",
+      "postCode": 10119,
+      "lat": 52.540,
+      "lng": 13.410,
+      "diesel": null,
+      "e5": 1.749,
+      "e10": 1.689,
+      "isOpen": false
+    }
+  ]
+}
