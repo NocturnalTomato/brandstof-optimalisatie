@@ -16,9 +16,9 @@ country by country. Each becomes one `PriceProvider` (see CONTRACTS.md).
 | NL, BE | DirectLease Tankservice | `https://tankservice.app-it-up.com/Tankservice/v2/places?fmt=web&country=NL&country=BE&lang=en` then `/v2/places/{id}?_v48&lang=en` | none, but see below | ~daily | T06 |
 | NL | ANWB POI | `https://api.anwb.nl/routing/points-of-interest/v3/all?type-filter=FUEL_STATION&bounding-box-filter={minLat},{minLon},{maxLat},{maxLon}` | **still unverified — needs a live Vercel-preview check** (see below) | live | T06 |
 | DE | Tankerkönig (MTS-K) | `https://creativecommons.tankerkoenig.de/json/list.php?lat=&lng=&rad=&type=all&apikey=` | free key, env `TANKERKOENIG_API_KEY` | live | T07 |
-| FR | data.economie.gouv.fr | `https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records` | none | live | T08 |
-| ES | Ministerio / sedeaplicaciones | `https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/` | none | daily | T08 |
-| IT | MIMIT open data | `https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv` + `anagrafica_impianti_attivi.csv` | none | daily | T08 |
+| FR | data.economie.gouv.fr | `https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records` | none, but **field/response shape unverified — needs a live Vercel-preview check** (see below) | live | T08 |
+| ES | Ministerio / sedeaplicaciones | `https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/` | none, but **field/response shape unverified — needs a live Vercel-preview check** (see below) | daily | T08 |
+| IT | MIMIT open data | `https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv` + `anagrafica_impianti_attivi.csv` | none, but **CSV column layout unverified — needs a live Vercel-preview check** (see below) | daily | T08 |
 
 ### ANWB POI — key requirement still unverified (T06)
 
@@ -165,3 +165,19 @@ returns, not re-read per station) — reasonable for a feed this project's own
 table above already lists as "live", but it is a real gap in the upstream API,
 not a task-doc assumption confirmed against a live response. If a live check
 turns up a timestamp field this missed, wire it in and drop this note.
+
+**T08 note:** `data.economie.gouv.fr`, `sedeaplicaciones.minetur.gob.es`, and
+`www.mimit.gov.it` are also confirmed egress-blocked from this sandbox (the
+CONNECT tunnel returns 403 for the France endpoint, and the other two are
+covered by the same proxy policy), so `lib/prices/__fixtures__/france-records.json`,
+`spain-all.json`, `italy-anagrafica.csv`, and `italy-prezzi.csv` are all
+**hand-authored representative payloads, not live captures** — flagged the
+same way (a `_comment` field on the two JSON fixtures; this note for the CSVs,
+which have no header for a comment to live in). They are shaped from the field
+names in `docs/tasks/T08-price-fr-es-it.md` and general public knowledge of
+each dataset's documented schema (Opendatasoft Explore v2.1 for FR, the
+`ListaEESSPrecio` REST shape for ES, MIMIT's `idImpianto`-joined CSV pair for
+IT). Treat "the fixture/CSV parses into a valid `Station[]`" and "the live
+endpoint answers with this shape" as two separate claims — the second is
+unverified pending a real Vercel-preview check per adapter (FR/ES/IT each
+need their own), consistent with the sandbox warning above.

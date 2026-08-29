@@ -9,10 +9,13 @@
 import "./anwb";
 import "./directlease";
 import "./tankerkoenig";
+import "./france";
+import "./spain";
+import "./italy";
 
 export { registerProvider, providersForCountries, allProviders } from "./registry";
 export { dedupeStations } from "./dedupe";
 export { fetchStations } from "./fetchStations";
 export type { FetchResult } from "./fetchStations";
-export { fetchJson } from "./http";
+export { fetchJson, fetchText } from "./http";
 export type { FetchJsonOptions } from "./http";

@@ -1,0 +1,48 @@
+{
+  "_comment": "Hand-authored representative payload, not a live capture — sedeaplicaciones.minetur.gob.es is egress-blocked from this sandbox (confirmed: CONNECT tunnel returns 403), same as every other price endpoint in T06/T07. The real endpoint returns ~12k stations nationwide in this exact shape (documented field names, comma-decimal prices); this fixture keeps a handful representative of that shape rather than reproducing all ~12k rows, since none could be captured live. Treat 'the fixture parses into a valid Station[]' and 'the live endpoint answers with this shape' as two separate claims — the second needs a live Vercel-preview check per docs/DATA-SOURCES.md.",
+  "Fecha": "28/08/2026 06:00:00",
+  "ListaEESSPrecio": [
+    {
+      "IDEESS": "1001",
+      "Rótulo": "REPSOL",
+      "Dirección": "AVENIDA DE AMERICA, 10",
+      "Localidad": "MADRID",
+      "Municipio": "MADRID",
+      "C.P.": "28028",
+      "Latitud": "40,433",
+      "Longitud (WGS84)": "-3,677",
+      "Precio Gasoleo A": "1,529",
+      "Precio Gasolina 95 E10": "1,629",
+      "Precio Gasolina 98 E5": "1,729",
+      "Precio Gases licuados del petróleo": "0,799"
+    },
+    {
+      "IDEESS": "1002",
+      "Rótulo": "CEPSA",
+      "Dirección": "CALLE ALCALA, 200",
+      "Localidad": "MADRID",
+      "Municipio": "MADRID",
+      "C.P.": "28009",
+      "Latitud": "40,421",
+      "Longitud (WGS84)": "-3,682",
+      "Precio Gasoleo A": "1,519",
+      "Precio Gasolina 95 E10": "1,619",
+      "Precio Gasolina 98 E5": "",
+      "Precio Gases licuados del petróleo": ""
+    },
+    {
+      "IDEESS": "2001",
+      "Rótulo": "BP",
+      "Dirección": "GRAN VIA, 45",
+      "Localidad": "BARCELONA",
+      "Municipio": "BARCELONA",
+      "C.P.": "08001",
+      "Latitud": "41,386",
+      "Longitud (WGS84)": "2,170",
+      "Precio Gasoleo A": "1,549",
+      "Precio Gasolina 95 E10": "1,649",
+      "Precio Gasolina 98 E5": "1,749",
+      "Precio Gases licuados del petróleo": "0,809"
+    }
+  ]
+}
